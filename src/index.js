@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// *** Have to import this string to tell React to use bootstrap CSS
+import 'bootstrap/dist/css/bootstrap.css';
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
